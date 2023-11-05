@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    *{
+        margin:0; padding:0;
+        box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+    }
+    ul{
+        list-style-type: none;
+    }
+    div.header {
+        margin: 0 auto;
+        width: 100%;
+        border-bottom: 2px gray;
+        background-color: midnightblue;
+        /*
+        background-image: url("astronomy-1867616_1280.jpg");
+        background-size: 1280px auto;*/
+    }
+    .header> .inner{
+        width: 1000px; height: 100px;
+        margin: 0 auto;
+    }
+    div ul li{
+        float: left;
+    }
+    div ul li a{
+        display: block;
+        margin: 20px 10px;
+        padding: 20px 40px;
+        font: bold 20px/1 "verdana";
+        color: dimgray;
+        transition: 0.5s;
+    }
+    div>ul>li a:hover{
+        background-color: rgba(60, 60, 162, 0.72);
+        /*background-color: rgba(25, 25, 112, 0.76);*/
+        color:whitesmoke;
+    }
+
+</style>
+<body>
+    <div class="header">
+        <div class="inner">
+            <ul>
+                <li><a href="#">Title</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Algorithm</a></li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
